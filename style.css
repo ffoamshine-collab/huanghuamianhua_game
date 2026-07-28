@@ -14188,3 +14188,206 @@ img {
 
     z-index: -1;
 }
+/* ==================================================
+   第二关第四、五步：手机端紧凑版
+================================================== */
+
+@media screen and (max-width: 700px) {
+
+    /* 整体卡片 */
+    #peachDecorStage .peach-decor-steam-card,
+    #peachSteamStage .peach-decor-steam-card {
+        gap: 9px !important;
+        padding: 9px !important;
+
+        border-radius: 17px;
+    }
+
+
+    /* 左侧制作区高度缩短 */
+    #peachDecorStage .peach-steam-workbench,
+    #peachSteamStage .peach-steam-workbench {
+        min-height: 255px !important;
+        height: 255px !important;
+
+        padding: 5px 0 28px;
+
+        border-radius: 16px;
+    }
+
+
+    /* 图片板缩短 */
+    #peachDecorStage .peach-image-board,
+    #peachSteamStage .peach-image-board {
+        width: 250px !important;
+        height: 205px !important;
+
+        max-width: 100%;
+    }
+
+
+    /* 寿桃图片缩小 */
+    #peachDecorStage .peach-stage-image,
+    #peachSteamStage .peach-stage-image {
+        width: 190px !important;
+        height: 185px !important;
+
+        object-fit: contain;
+    }
+
+
+    /* 提示文字压缩 */
+    #peachDecorStage .peach-decor-steam-message,
+    #peachSteamStage .peach-decor-steam-message {
+        bottom: 5px !important;
+
+        min-height: 20px;
+
+        padding: 0 8px;
+
+        font-size: 12px !important;
+        line-height: 1.35;
+    }
+
+
+    /* 右侧控制区 */
+    #peachDecorStage .peach-decor-steam-control,
+    #peachSteamStage .peach-decor-steam-control {
+        gap: 7px !important;
+
+        padding: 11px !important;
+
+        border-radius: 16px;
+    }
+
+
+    #peachDecorStage .peach-decor-steam-control > h3,
+    #peachSteamStage .peach-decor-steam-control > h3 {
+        margin-bottom: 5px !important;
+
+        font-size: 18px !important;
+    }
+
+
+    /* 叶子工具卡 */
+    #peachDecorStage .peach-leaf-tool-card {
+        min-height: 64px !important;
+
+        gap: 8px;
+
+        padding: 7px 10px !important;
+    }
+
+
+    #peachDecorStage .peach-leaf-tool-image {
+        width: 58px !important;
+        height: 44px !important;
+    }
+
+
+    #peachDecorStage .peach-leaf-tool-card strong {
+        font-size: 13px;
+    }
+
+
+    #peachDecorStage .peach-leaf-tool-card small {
+        font-size: 11px;
+    }
+
+
+    /* 按钮整体缩短 */
+    #peachDecorStage button,
+    #peachSteamStage button {
+        min-height: 40px !important;
+
+        margin-bottom: 6px !important;
+
+        padding: 7px 12px !important;
+
+        font-size: 13px !important;
+    }
+
+
+    /* 火候条 */
+    #peachSteamStage .peach-heat-box {
+        margin: 2px 0 7px !important;
+    }
+
+
+    #peachSteamStage .peach-heat-meter {
+        height: 40px !important;
+
+        border-width: 2px;
+    }
+
+
+    #peachSteamStage .peach-heat-pointer {
+        height: 44px !important;
+    }
+
+
+    /* 蒸笼底座 */
+    #peachSteamStage .peach-steamer-base {
+        bottom: 23px !important;
+
+        width: 190px !important;
+        height: 34px !important;
+    }
+
+
+    /* 火焰缩小 */
+    #peachSteamStage .peach-fire {
+        bottom: 1px !important;
+    }
+
+
+    #peachSteamStage .peach-fire span {
+        width: 14px !important;
+        height: 27px !important;
+    }
+
+
+    #peachSteamStage .peach-fire span:nth-child(2) {
+        height: 34px !important;
+    }
+
+
+    /* 蒸汽位置下移，配合缩短后的制作区 */
+    #peachSteamStage .peach-steam-cloud {
+        bottom: 150px !important;
+
+        width: 38px;
+        height: 50px;
+    }
+
+}
+@media screen and (max-width: 700px) {
+
+    #peachDecorStage .instruction-card,
+    #peachSteamStage .instruction-card {
+        gap: 9px;
+
+        margin-bottom: 10px;
+
+        padding: 10px 12px;
+    }
+
+    #peachDecorStage .instruction-icon,
+    #peachSteamStage .instruction-icon {
+        font-size: 25px;
+    }
+
+    #peachDecorStage .instruction-card h3,
+    #peachSteamStage .instruction-card h3 {
+        margin-bottom: 3px;
+
+        font-size: 16px;
+    }
+
+    #peachDecorStage .instruction-card p,
+    #peachSteamStage .instruction-card p {
+        font-size: 11px;
+        line-height: 1.45;
+    }
+
+}
