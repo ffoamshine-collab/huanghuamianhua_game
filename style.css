@@ -14391,3 +14391,135 @@ img {
     }
 
 }
+/* ==================================================
+   第二关结果页：手机端紧凑版
+================================================== */
+
+@media screen and (max-width: 700px) {
+
+    #peachResultStage .peach-result-card {
+        padding: 16px 14px !important;
+
+        border-radius: 20px;
+    }
+
+
+    #peachResultStage .result-small-title {
+        margin-bottom: 3px;
+
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+
+    #peachResultStage .peach-result-card > h2 {
+        margin: 2px 0 8px !important;
+
+        font-size: 24px !important;
+    }
+
+
+    /* 成品图和印章区域 */
+
+    #peachResultStage .peach-result-content {
+        gap: 8px !important;
+
+        margin: 0 0 8px !important;
+    }
+
+
+    #peachResultStage .peach-result-picture {
+        min-height: 175px !important;
+        height: 175px !important;
+    }
+
+
+    #peachResultStage .peach-result-image {
+        width: 185px !important;
+        height: 170px !important;
+
+        object-fit: contain;
+    }
+
+
+    /* 非遗小匠印章缩小 */
+
+    #peachResultStage .heritage-badge {
+        width: 54px !important;
+        height: 54px !important;
+
+        padding: 5px !important;
+    }
+
+
+    #peachResultStage .heritage-badge span {
+        font-size: 11px !important;
+        line-height: 1.05;
+    }
+
+
+    /* 祝贺文字 */
+
+    #peachResultStage
+    .peach-result-congratulation {
+        margin: 6px 0 !important;
+
+        font-size: 16px !important;
+        line-height: 1.4;
+    }
+
+
+    /* 文化寓意文字 */
+
+    #peachResultStage
+    .peach-result-card > p:not(
+        .result-small-title
+    ):not(
+        .peach-result-congratulation
+    ) {
+        margin: 5px 0 10px !important;
+
+        font-size: 12px !important;
+        line-height: 1.55 !important;
+    }
+
+
+    /* 分数区域 */
+
+    #peachResultStage .peach-result-score {
+        margin: 7px 0 10px !important;
+        padding: 8px 10px !important;
+
+        font-size: 13px !important;
+    }
+
+
+    #peachResultStage
+    .peach-result-score strong {
+        font-size: 22px !important;
+    }
+
+
+    /* 两个按钮并排，减少高度 */
+
+    #peachResultStage .peach-result-buttons {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+
+        gap: 8px !important;
+
+        margin-top: 6px !important;
+    }
+
+
+    #peachResultStage
+    .peach-result-buttons button {
+        min-height: 40px !important;
+
+        margin: 0 !important;
+        padding: 7px 8px !important;
+
+        font-size: 13px !important;
+    }
+
+}
